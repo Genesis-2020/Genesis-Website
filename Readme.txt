@@ -1,6 +1,6 @@
 Thanks for downloading this template!
 
-Template Name: BizPage
-Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+Template Name: Dewi
+Template URL: https://bootstrapmade.com/dewi-free-multi-purpose-html-template/
 Author: BootstrapMade.com
 License: https://bootstrapmade.com/license/
