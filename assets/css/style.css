@@ -1191,7 +1191,38 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.team {
+.team{
+  margin: 0 100px;
+  background-color: white;
+}
+
+.my-carousel .carousel-indicators .active{
+     background-color:#C0C0C0;
+
+    }
+
+    .my-carousel .picture {
+      margin: 0;
+      height: 300px;
+      width: 265px;
+      padding:20px 20px 20px 10px;
+    }
+
+    .my-carousel .team-body{
+      text-align: center;
+      color: black;
+    }
+
+    .my-carousel .item .name{
+      font-weight: bolder;
+    }
+
+    .my-carousel .item .team-position{
+      font-style: italic;
+    }
+
+
+/* .team {
   position: relative;
 }
 
@@ -1212,7 +1243,7 @@ section {
   width: 350px;
   display: block;
   margin: 25px auto;
-}
+} */
 
  /* .team .member {
   margin-bottom: 80px;
