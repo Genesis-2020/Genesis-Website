@@ -1098,7 +1098,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio #portfolio-flters {
+/* .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
   list-style: none;
@@ -1188,18 +1188,139 @@ section {
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.team {
+.team{
+  margin: 0 100px;
+  background-color: white;
+}
+
+.my-carousel .carousel-indicators .active{
+     background-color:#C0C0C0;
+
+    }
+
+    .my-carousel .picture {
+      margin: 0;
+      height: 300px;
+      width: 265px;
+      padding:20px 20px 20px 10px;
+    }
+
+    .my-carousel .team-body{
+      text-align: center;
+      color: black;
+    }
+
+    .my-carousel .item .name{
+      font-weight: bolder;
+    }
+
+    .my-carousel .item .team-position{
+      font-style: italic;
+    }
+
+
+/* .team {
   position: relative;
 }
 
-.team .container {
-  position: relative;
+.team .carousel-caption{
+  color:black;
+  top:380px;
+}
+
+ .team .container {
   z-index: 10;
+ }
+
+ .team #myCarousel{
+  background-color: grey; 
+}
+ 
+.team .pic{
+  width: 350px;
+  display: block;
+  margin: 25px auto;
+} */
+
+ /* .team .member {
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.team .member .pic {
+  overflow: hidden;
+}
+
+.team .member .member-info {
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+  right: 20px;
+  background: #fff;
+  padding: 20px 15px;
+  color: #15222b;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #15222b;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.team .member h4::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #7fa5c0;
+  bottom: 0;
+  left: 0;
+}
+
+.team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+.team .member .social {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: #477392;
+}
+
+.team .member .social a:hover {
+  color: #ff4a17;
+}
+
+.team .member .social i {
+  font-size: 16px;
+  margin: 0 2px;
+}
+
+@media (max-width: 992px) {
+  .team .member {
+    margin-bottom: 110px;
+  }
+}.team {
+  position: relative;
 }
 
 .team .member {
@@ -1274,7 +1395,7 @@ section {
   .team .member {
     margin-bottom: 110px;
   }
-}
+} */ 
 
 /*--------------------------------------------------------------
 # Contact
