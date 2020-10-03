@@ -621,13 +621,14 @@ section {
 }
 
 .about .content {
-  font-size: 15px;
+  font-size: 19px;
 }
 
 .about .content h3 {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 40px;
   color: #263d4d;
+  text-align: center;
 }
 
 .about .content ul {
@@ -636,7 +637,7 @@ section {
 }
 
 .about .content ul li {
-  padding-bottom: 10px;
+  padding-bottom: 14px;
   padding-left: 28px;
   position: relative;
 }
@@ -651,6 +652,7 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+
 }
 
 .about .play-btn {
