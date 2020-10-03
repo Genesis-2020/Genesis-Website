@@ -417,21 +417,70 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  /* background: url("../img/hero-bg.jpg") top center; */
+  background-color: #000000;
   background-size: cover;
   position: relative;
   padding: 0;
 }
 
-#hero:before {
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%; 
+  height: 100vh;
+}
+
+#charter {
   content: "";
   background: rgba(13, 20, 26, 0.7);
-  position: absolute;
+  position: relative;
   bottom: 0;
-  top: 0;
-  left: 0;
   right: 0;
+  position: absolute;
+  /* top: 92%;
+  left: 32%; */
 }
+
+
+
+/* media querry */
+
+
+
+ /* Small devices (landscape phones, 576px and up) */
+ /* @media (min-width: 376px) {     position:absolute;
+  top: 93%;
+  left: 34%; } */
+
+ /* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 850px) { position: absolute;
+  top:93% ;left:43% } */
+
+ /* Large devices (desktops, 992px and up) */
+/* @media (min-width: 992px) { } */
+
+ /* Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { position: absolute;
+  top: 93%;
+  left: 44%;
+} } */
+
+
+.navbar-brand img {
+  max-width:150px;
+  height:auto;
+}
+
+img {
+  border-radius: 2px 2px 2px 2px ;
+  
+  max-width: width 20px;
+  height: 10px;
+} 
+
+
 
 #hero .hero-container {
   position: absolute;
@@ -480,7 +529,11 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(255, 255, 255, 0.1);
 }
 
-#hero .btn-watch-video {
+/* img {
+  border-radius: 2px 0px 2px 0px ;
+}  */
+
+/* #hero .btn-watch-video {
   font-size: 16px;
   display: inline-block;
   padding: 10px 25px 8px 40px;
@@ -501,12 +554,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero .btn-watch-video:hover i {
   color: #ff4a17;
-}
+} */
 
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
   }
+  
 }
 
 @media (max-width: 768px) {
@@ -519,7 +573,10 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
     margin-bottom: 30px;
   }
+   
 }
+
+
 
 /*--------------------------------------------------------------
 # Sections General
@@ -584,7 +641,7 @@ section {
 .about .count-box i {
   display: block;
   font-size: 48px;
-  color:#545666;
+  color: #a1bdd1;
   float: left;
 }
 
@@ -621,14 +678,13 @@ section {
 }
 
 .about .content {
-  font-size: 19px;
+  font-size: 15px;
 }
 
 .about .content h3 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 24px;
   color: #263d4d;
-  text-align: center;
 }
 
 .about .content ul {
@@ -637,7 +693,7 @@ section {
 }
 
 .about .content ul li {
-  padding-bottom: 14px;
+  padding-bottom: 10px;
   padding-left: 28px;
   position: relative;
 }
@@ -652,7 +708,6 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
-
 }
 
 .about .play-btn {
@@ -1098,7 +1153,7 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-/* .portfolio #portfolio-flters {
+.portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 25px auto;
   list-style: none;
@@ -1188,139 +1243,18 @@ section {
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
   bottom: 0;
-} */
+}
 
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
-.team{
-  margin: 0 100px;
-  background-color: white;
-}
-
-.my-carousel .carousel-indicators .active{
-     background-color:#C0C0C0;
-
-    }
-
-    .my-carousel .picture {
-      margin: 0;
-      height: 300px;
-      width: 265px;
-      padding:20px 20px 20px 10px;
-    }
-
-    .my-carousel .team-body{
-      text-align: center;
-      color: black;
-    }
-
-    .my-carousel .item .name{
-      font-weight: bolder;
-    }
-
-    .my-carousel .item .team-position{
-      font-style: italic;
-    }
-
-
-/* .team {
+.team {
   position: relative;
 }
 
-.team .carousel-caption{
-  color:black;
-  top:380px;
-}
-
- .team .container {
+.team .container {
+  position: relative;
   z-index: 10;
- }
-
- .team #myCarousel{
-  background-color: grey; 
-}
- 
-.team .pic{
-  width: 350px;
-  display: block;
-  margin: 25px auto;
-} */
-
- /* .team .member {
-  margin-bottom: 80px;
-  position: relative;
-}
-
-.team .member .pic {
-  overflow: hidden;
-}
-
-.team .member .member-info {
-  position: absolute;
-  bottom: -50px;
-  left: 20px;
-  right: 20px;
-  background: #fff;
-  padding: 20px 15px;
-  color: #15222b;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: 0.5s;
-}
-
-.team .member h4 {
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 16px;
-  color: #15222b;
-  position: relative;
-  padding-bottom: 10px;
-}
-
-.team .member h4::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 1px;
-  background: #7fa5c0;
-  bottom: 0;
-  left: 0;
-}
-
-.team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-}
-
-.team .member .social {
-  position: absolute;
-  right: 15px;
-  bottom: 15px;
-}
-
-.team .member .social a {
-  transition: color 0.3s;
-  color: #477392;
-}
-
-.team .member .social a:hover {
-  color: #ff4a17;
-}
-
-.team .member .social i {
-  font-size: 16px;
-  margin: 0 2px;
-}
-
-@media (max-width: 992px) {
-  .team .member {
-    margin-bottom: 110px;
-  }
-}.team {
-  position: relative;
 }
 
 .team .member {
@@ -1395,7 +1329,7 @@ section {
   .team .member {
     margin-bottom: 110px;
   }
-} */ 
+}
 
 /*--------------------------------------------------------------
 # Contact
