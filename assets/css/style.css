@@ -475,9 +475,10 @@ h1, h2, h3, h4, h5, h6 {
 
 img {
   border-radius: 2px 2px 2px 2px ;
-  
   max-width: width 20px;
   height: 10px;
+  position: relative;
+  bottom: 17px;
 } 
 
 
