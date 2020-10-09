@@ -22,6 +22,21 @@ a:hover {
   text-decoration: none;
 }
 
+h4>a:hover, li>a:hover, h1>a:hover, li>a:focus{
+  text-decoration: none;
+}
+
+/* .d-gitam-logo{
+  position: relative;
+  top: 17px;
+  right: 140px;
+}
+
+.d-logo{
+  position: relative;
+  left: 0px;
+} */
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
@@ -123,6 +138,11 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(21, 34, 43, 0.85);
   padding: 12px 0;
 }
+
+/* .logo{
+  position: relative;
+  right: 140px;
+} */
 
 #header .logo {
   font-size: 32px;
@@ -450,35 +470,41 @@ h1, h2, h3, h4, h5, h6 {
 
 
  /* Small devices (landscape phones, 576px and up) */
- /* @media (min-width: 376px) {     position:absolute;
+ /* @media (min-width: 376px) {    
+  position:absolute;
   top: 93%;
-  left: 34%; } */
+  left: 34%;
+ } */
 
  /* Medium devices (tablets, 768px and up) */
-/* @media (min-width: 850px) { position: absolute;
-  top:93% ;left:43% } */
+/* @media (min-width: 850px) { 
+  position: absolute;
+  top:93% ;
+  left:43%; } */
 
- /* Large devices (desktops, 992px and up) */
-/* @media (min-width: 992px) { } */
+ /* Large devices (desktops, 992px and up)
+@media (min-width: 992px) { } */
 
  /* Extra large devices (large desktops, 1200px and up) */
-/* @media (min-width: 1200px) { position: absolute;
+/* @media (min-width: 1200px) { 
+  position: absolute;
   top: 93%;
   left: 44%;
-} } */
+} */
 
 
 .navbar-brand img {
   max-width:150px;
   height:auto;
+  /* position: relative;
+  bottom: 17px;
+  left: 155px; */
 }
 
 img {
   border-radius: 2px 2px 2px 2px ;
   max-width: width 20px;
   height: 10px;
-  position: relative;
-  bottom: 17px;
 } 
 
 
