@@ -22,6 +22,31 @@ a:hover {
   text-decoration: none;
 }
 
+h4>a:hover, li>a:hover, h1>a:hover, li>a:focus{
+  text-decoration: none;
+}
+
+.d-gitam-logo{
+  position: relative;
+  top: 17px;
+  right: 140px;
+}
+
+.d-logo{
+  position: relative;
+  left: 0px;
+}
+
+
+
+/* li>a:hover{
+  text-decoration: none;
+} */
+
+/* h1>a:hover{
+  text-decoration: none;
+} */
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
@@ -122,6 +147,11 @@ h1, h2, h3, h4, h5, h6 {
 #header.header-scrolled, #header.header-inner-pages {
   background: rgba(21, 34, 43, 0.85);
   padding: 12px 0;
+}
+
+.logo{
+  position: relative;
+  right: 140px;
 }
 
 #header .logo {
@@ -471,14 +501,15 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-brand img {
   max-width:150px;
   height:auto;
+  position: relative;
+  bottom: 17px;
+  left: 155px;
 }
 
 img {
   border-radius: 2px 2px 2px 2px ;
   max-width: width 20px;
   height: 10px;
-  position: relative;
-  bottom: 17px;
 } 
 
 
