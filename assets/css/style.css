@@ -19,20 +19,20 @@ h4>a:hover, li>a:hover, h1>a:hover, li>a:focus{
   text-decoration: none;
 }
 
-/* .d-gitam-logo{
+.d-gitam-logo{
   position: relative;
   top: 17px;
-  right: 140px;
+  right: 40px;
 }
 
-.d-logo{
+/* .d-logo{
   position: relative;
   left: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
-}
+} */
 
 /*--------------------------------------------------------------
 # Back to top button
