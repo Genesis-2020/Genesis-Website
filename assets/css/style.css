@@ -630,7 +630,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #ff8664;
+  background: /*#ff8664;*/#26be59;
   margin: 4px 10px;
 }
 
