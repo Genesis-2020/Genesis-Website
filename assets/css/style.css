@@ -621,7 +621,7 @@ section {
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #2DE069;
+  color: #262023;
   font-family: "Poppins", sans-serif;
 }
 
@@ -630,7 +630,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: /*#ff8664;*/#2DE069;
+  background: /*#ff8664;*/#262023;
   margin: 4px 10px;
 }
 
@@ -641,7 +641,7 @@ section {
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  color: #c1c1c1;
+  color: #f2f2f2;
 }
 
 /*--------------------------------------------------------------
@@ -1117,7 +1117,7 @@ section {
 
 .projects .icon-box i {
   float: left;
-  color: #26be59;
+  color: #F2D5C4;
   font-size: 40px;
 }
 
@@ -1165,18 +1165,18 @@ section {
 # Services
 --------------------------------------------------------------*/
 .services{
-  background-color: #414141;
+  background-color: #A6948A;
 }
 .services .icon-box {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
-  background:#c1c1c1;
+  background:#F2F2F2;
 }
 
 .services .icon-box i {
   float: left;
-  color: #26be59;
+  color: #262023;
   font-size: 40px;
 }
 
@@ -1188,7 +1188,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #26be59;
+  color: #262023;
   transition: 0.3s;
 }
 
@@ -1204,7 +1204,7 @@ section {
 }
 
 .services .icon-box:hover h4 a {
-  color: /*#ff4a17*/#156931;
+  color: /*#ff4a17*/#A6948A;
 }
 
 /*--------------------------------------------------------------
@@ -1403,7 +1403,7 @@ section {
   }
 }  */
 .team{
-  background-color:black;
+  background-color:#594F4C;
   width:100%;
 }
 
