@@ -25,11 +25,6 @@ h4>a:hover, li>a:hover, h1>a:hover, li>a:focus{
   right: 40px;
 }
 
-/* .d-logo{
-  position: relative;
-  left: 0px;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 } */
@@ -47,20 +42,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top i {
   display: flex;
-  align-items: center;
+  align-items: right;
   justify-content: center;
   font-size: 24px;
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: /*#ff4a17*/#26be59;
-  color:#414141;
+  background: /*#ff4a17*/#262023;
+  color:#F2F2F2;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: /*#ff5e31*/#156931;
-  color:#c1c1c1;
+  background: /*#ff5e31*/#594F4C;
+  color: #F2F2F2
 }
 
 /*--------------------------------------------------------------
@@ -128,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(21, 34, 43, 0.85);
+  background: rgba(209, 184, 169, 0.8);
   padding: 12px 0;
 }
 
@@ -199,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: /*#ff4a17*/#26be59;
+  background-color: /*#ff4a17*/#A6948A;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -824,7 +819,7 @@ section {
   }
 } */
 .about{
-  background-color: #c1c1c1;
+  background-color: #A6948A;
 }
 .about .container{
   background-color: black;
@@ -1103,21 +1098,29 @@ section {
 # Projects
 --------------------------------------------------------------*/
 .projects{
- background-color:#414141; 
+ background-color:/*#414141*/#594F4C; 
 }
 .projects .section-title p{
-  color:#c1c1c1;
+  color:/*#c1c1c1*/#F2F2F2;
 }
 .projects .icon-box {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
-  background:#c1c1c1;
+  background:/*#c1c1c1*/#F2F2F2;
+}
+
+.projects-title>h2{
+  color: #F2D5C4;
+}
+
+.projects-title>h2::after{
+  background-color: #F2D5C4;
 }
 
 .projects .icon-box i {
   float: left;
-  color: #F2D5C4;
+  color: /*#F2D5C4*/#111111;
   font-size: 40px;
 }
 
@@ -1129,7 +1132,7 @@ section {
 }
 
 .projects .icon-box h4 a {
-  color: #26be59;
+  color: /*#26be59*/#111111;
   transition: 0.3s;
 }
 
@@ -1141,10 +1144,11 @@ section {
   margin-left: 70px;
   line-height: 24px;
   font-size: 14px;
+  color: #ffffff;
 }
 
 .projects .icon-box:hover h4 a {
-  color: #156931;
+  color: /*#156931*/#A6948A;
 }
 
  /* #quote_author{
@@ -1249,7 +1253,7 @@ section {
   padding-bottom: 20px;;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color:#fff;
+  color:#F2F2F2;
 }
 
 /* .testimonials .testimonial-item h4 {
@@ -1279,7 +1283,7 @@ section {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
-  color:#156931;
+  color:/*#156931*/#262023;
   font-weight:bold;
   font-size: 20px;
 }
@@ -1441,8 +1445,16 @@ section {
   background-color: #414141;
 }
 
+.contact-title>h2{
+  color: #A6948A;
+}
+
+.contact-title>h2::after{
+  background-color: #A6948A;
+}
+
 .contact .info-box {
-  background-color: #c1c1c1;
+  background-color: #F2F2F2;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.2);
   padding: 20px 0 30px 0;
@@ -1450,9 +1462,13 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: /*#ff4a17*/#26be59;
+  color: /*#ff4a17*/#262023;
   border-radius: 50%;
   padding: 8px;
+}
+
+.mt-lg-0{
+  background-color: #F2F2F2;
 }
 
 .contact .info-box h3 {
@@ -1538,6 +1554,18 @@ section {
   border-color: /*#ff4a17*/#26be59;
 }
 
+input[type=text]{
+  background-color: #A6948A;
+}
+
+input[type=email]{
+  background-color: #A6948A;
+}
+
+::-webkit-input-placeholder{
+  color: #F2F2F2;
+}
+
 .contact .php-email-form input {
   padding: 20px 15px;
 }
@@ -1547,7 +1575,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: /*#ff4a17*/#26be59;
+  background: /*#ff4a17*/#262023;
   border: 0;
   padding: 10px 24px;
   color:#fff;
@@ -1556,7 +1584,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #ff5e31;
+  background: #594F4C;
 }
 
 @-webkit-keyframes animate-loading {
