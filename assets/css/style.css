@@ -1166,48 +1166,48 @@ section {
 
 
 /* --------------------------------------------------------------
-# Services
+# research
 --------------------------------------------------------------*/
-.services{
+.research{
   background-color: #A6948A;
 }
-.services .icon-box {
+.research .icon-box {
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
   background:#F2F2F2;
 }
 
-.services .icon-box i {
+.research .icon-box i {
   float: left;
   color: #262023;
   font-size: 40px;
 }
 
-.services .icon-box h4 {
+.research .icon-box h4 {
   margin-left: 70px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .icon-box h4 a {
+.research .icon-box h4 a {
   color: #262023;
   transition: 0.3s;
 }
 
-.services .icon-box .icon-box:hover h4 a {
+.research .icon-box .icon-box:hover h4 a {
   color: /*#ff4a17*/#26be59;
 }
 
-.services .icon-box p {
+.research .icon-box p {
   margin-left: 70px;
   line-height: 24px;
   font-size: 14px;
   color:#414141;
 }
 
-.services .icon-box:hover h4 a {
+.research .icon-box:hover h4 a {
   color: /*#ff4a17*/#A6948A;
 }
 
