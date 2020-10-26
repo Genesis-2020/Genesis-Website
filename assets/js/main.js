@@ -196,6 +196,26 @@
     items: 1
   });
 
+  //team carousel
+  $('.my-carousel').owlCarousel({
+    loop:true,
+    dots: true,
+    autoplay: true,
+    margin:10,
+    nav:true,
+    responsive:{
+        200:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+
   // Init AOS
   function aos_init() {
     AOS.init({
