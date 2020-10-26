@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  right: 15px;
+  right: -15px;
   bottom: 15px;
   z-index: 99999;
 }
@@ -846,7 +846,7 @@ section {
   line-height: 25px;
   display: block;
   font-weight: 700;
-  color: #26be59;
+  color: #A6948A;
   margin-left: 60px;
 }
 
@@ -905,7 +905,7 @@ section {
 
 .about .content ul i {
   font-size: 24px;
-  color: /*#ff4a17*/#26be59;
+  color: /*#ff4a17*/#A6948A;
   position: absolute;
   left: 0;
   top: -2px;
@@ -918,7 +918,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(/*#ff4a17*/#26be59 50%, rgba(45, 224, 105, 0.4) 52%);
+  background: radial-gradient(/*#ff4a17*/#A6948A 50%, rgba(242, 213, 196, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -959,14 +959,14 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(21, 105, 91, 0.7);
+  border: 5px solid /*rgba(21, 105, 91, 0.7)*/#A6948A;
   top: -15%;
   left: -15%;
-  background: rgba(198, 16, 0, 0);
+  background: /*rgba(198, 16, 0, 0);*/#594F4C;
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid /*#ff4a17*/#26be59;
+  border-left: 15px solid /*#ff4a17*/#594F4C;
   transform: scale(20);
 }
 
@@ -1303,7 +1303,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: /*#ff4a17*/#26be59 !important;
+  background-color: /*#ff4a17*/#262320 !important;
 }
 
 @media (min-width: 1024px) {
@@ -1417,6 +1417,7 @@ section {
 
 .my-carousel .picture {  
   padding-left: 25px;
+  padding-bottom: 25px;
 } 
 
 *{
@@ -1567,7 +1568,7 @@ input[type=email]{
   background-color: #A6948A;
 }
 
-::-webkit-input-placeholder{
+form .form-control::-webkit-input-placeholder{
   color: #F2F2F2;
 }
 
