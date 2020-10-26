@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled, #header.header-inner-pages {
-  background: rgba(209, 184, 169, 0.8);
+  background: rgba(38, 32, 35, 0.8);
   padding: 12px 0;
 }
 
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: /*#ff4a17*/#A6948A;
+  background-color:#A6948A;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -243,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: /*#ff4a17*/#26be59;
+  color: #26be59;
 }
 
 .nav-menu .drop-down > a:after {
@@ -1323,89 +1323,6 @@ section {
 # Team
 --------------------------------------------------------------*/
 
-
-/* .team {
-  position: relative;
-}
-
-.team .container {
-  position: relative;
-  z-index: 10;
-}
-
-.team .member {
-  margin-bottom: 80px;
-  position: relative;
-}
-
-.team .member .pic {
-  overflow: hidden;
-}
-
-.team .member .member-info {
-  position: absolute;
-  bottom: -50px;
-  left: 20px;
-  right: 20px;
-  background: #fff;
-  padding: 20px 15px;
-  color: #15222b;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-  transition: 0.5s;
-}
-
-.team .member h4 {
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 16px;
-  color: #15222b;
-  position: relative;
-  padding-bottom: 10px;
-}
-
-.team .member h4::after {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 1px;
-  background: #7fa5c0;
-  bottom: 0;
-  left: 0;
-}
-
-.team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-}
-
-.team .member .social {
-  position: absolute;
-  right: 15px;
-  bottom: 15px;
-}
-
-.team .member .social a {
-  transition: color 0.3s;
-  color: #477392;
-}
-
-.team .member .social a:hover {
-  color: #26be59;
-}
-
-.team .member .social i {
-  font-size: 16px;
-  margin: 0 2px;
-}
-
-@media (max-width: 992px) {
-  .team .member {
-    margin-bottom: 110px;
-  }
-}  */
 .team{
   background-color:#594F4C;
   width:100%;
@@ -1437,23 +1354,24 @@ section {
 
 .my-carousel .item .name{
   font-weight: bolder;
-  color:#A6948A;
+  color: #f2f2f2;
 }
 
 .my-carousel .item .team-position{
   font-style: italic;
-  color:#f2f2f2;
+  color:#f2D5C4;
 } 
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
 .contact{
-  background-color: #414141;
+  background-color: #262023;
 }
 
 .contact-title>h2{
   color: #A6948A;
 }
+
 
 .contact-title>h2::after{
   background-color: #A6948A;
