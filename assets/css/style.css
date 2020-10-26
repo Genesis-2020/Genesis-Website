@@ -1056,7 +1056,7 @@ section {
 
 
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
-  color:white;
+  color:#262023;
   font-size: 26px;
 }
 
@@ -1076,7 +1076,7 @@ section {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
-  color:#262023;
+  color:#ffffff;
   font-weight:bold;
   font-size: 20px;
 }
